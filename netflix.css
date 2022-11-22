@@ -112,15 +112,10 @@ input::placeholder {
 }
 
 button > img {
-  /* padding-left: 10px; */
   width: 25px;
   height: 18px;
   filter: brightness(4);
 }
-
-/* .left-side {
-  width: 40vw;
-} */
 
 section {
   display: flex;
@@ -167,7 +162,6 @@ video {
   max-width: 100%;
   background: transparent;
   float: left;
-  /* margin-left: -50px; */
 }
 
 .stranger-container {
@@ -206,7 +200,7 @@ video {
 
 .stranger-p p:nth-of-type(2) {
   color: #0071eb;
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 400;
   margin-top: -3px;
 }
@@ -309,4 +303,3 @@ footer span {
 footer span:nth-of-type(1) {
   font-size: 16px;
 }
-
