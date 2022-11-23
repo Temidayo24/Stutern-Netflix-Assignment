@@ -95,6 +95,8 @@ input {
   min-width: 450px;
   padding-left: 10px;
   font-size: 1em;
+  outline: 0;
+  color: black;
 }
 
 input ~ a button {
