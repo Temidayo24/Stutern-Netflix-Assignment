@@ -30,6 +30,7 @@ header a button {
   background-color: #e50914;
   font-size: 1rem;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 main {
@@ -107,6 +108,7 @@ input ~ a button {
   border: 1px solid #f40612;
   background-color: #f40612;
   font-size: 1.625em;
+  cursor: pointer;
 }
 
 input::placeholder {
@@ -267,7 +269,7 @@ details {
 
 footer {
   width: 70vw;
-  padding: 50px 0px;
+  padding: 75px 0px 35px;
   margin: auto;
   font-size: 13px;
 }
@@ -275,6 +277,7 @@ footer {
 footer a {
   text-decoration: none;
   color: #8c8c8c;
+  cursor: pointer;
 }
 
 footer a:hover {
@@ -287,7 +290,7 @@ footer ul {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 1.2em;
-  margin: 30px auto;
+  margin: 30px auto 40px;
 }
 
 .list {
