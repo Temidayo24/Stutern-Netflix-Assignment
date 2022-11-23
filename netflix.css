@@ -121,7 +121,7 @@ section {
   display: flex;
   gap: 1em;
   width: 100vw;
-  padding: 50px 130px;
+  padding: 5% 5% 5% 10%;
   border-bottom: 8px solid #222;
   justify-content: space-between;
   align-items: center;
@@ -142,20 +142,20 @@ section {
 
 .positioning img {
   float: right;
-  width: 450px;
+  width: 95%;
   background: transparent;
 }
 
 .positioning2 {
   position: absolute;
-  top: 100%;
-  right: 195px;
-  transform: translateY(100%);
+  top: 137%;
+  right: 300px;
+  transform: translate(50%);
   overflow: hidden;
 }
 
 video {
-  width: 325px;
+  width: 82%;
 }
 
 .mobile-img > img {
@@ -175,8 +175,8 @@ video {
   gap: 4em;
   width: 330px;
   max-width: 100%;
-  top: 237%;
-  left: 11%;
+  top: 260%;
+  left: 12.5%;
   position: absolute;
   z-index: 1;
 }
@@ -301,3 +301,11 @@ footer span {
 footer span:nth-of-type(1) {
   font-size: 16px;
 }
+
+/* @media screen and (max-width: 949px) {
+  section {
+    display: block;
+  }
+
+
+} */
