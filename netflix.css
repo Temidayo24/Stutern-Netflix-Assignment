@@ -9,6 +9,10 @@
   line-height: 1.3em;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   display: flex;
   justify-content: space-between;
