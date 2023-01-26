@@ -16,8 +16,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 28px;
-  margin: 0 3.5em;
+  padding: 28px 4.1% 0;
   position: relative;
 }
 
@@ -127,11 +126,10 @@ button > img {
 
 section {
   display: flex;
-  gap: 1em;
   width: 100vw;
-  padding: 4% 5% 4% 10%;
+  padding: 4% 10% 4% 10%;
   border-bottom: 8px solid #222;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -141,40 +139,47 @@ section {
 
 .right-side {
   width: 50%;
-
+  align-items: center;
 }
+
+.view2-left {
+  padding-right: 2%;
+}
+
 
 
 img.positioning {
   position: relative;
   z-index: 1;
-  float: right;
   overflow: hidden;
-  width: 100%;
+  width: 96%;
   background: transparent;
 }
 
-.positioning-container{
+.positioning-container {
   position: relative;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 video.positioning {
   position: absolute;
-  width: 73%;
+  width: 70%;
   right: 0%;
-  transform: translate(-19%, 37%);
+  transform: translate(-21.7%, -21%);
 }
 
 .view3-image-container {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .mobile-img {
-  width: 90%;
-  min-width: 420px;
-  margin-left: -15%;
-  margin-top: -5%;
+  width: 47%;
+  margin-right: 40%;
   position: relative;
 }
 
@@ -186,11 +191,11 @@ video.positioning {
   padding: 0.5em 0.75em 0.65em;
   border: 2px solid hsla(0, 0%, 100%, 0.25);
   border-radius: 0.75em;
-  width: 57%;
-  min-width: 270px;
+  width: 60%;
+  min-width: 60%;
   bottom: 22%;
   left: 0%;
-  transform: translate(2%, 50%);
+  transform: translate(0%, 50%);
   position: absolute;
   z-index: 1;
 }
@@ -316,10 +321,141 @@ footer span:nth-of-type(1) {
   font-size: 16px;
 }
 
-/* @media screen and (max-width: 949px) {
+@media screen and (max-width: 949px) {
   section {
-    display: block;
+    flex-direction: column;
+    padding: 10% 7%;
+    text-align: center;
+    justify-content: center;
   }
 
+  header {
+    padding: 26px 6.6% 0;
+  }
 
-} */
+  header img {
+    width: 108px;
+    height: 35px;
+  }
+
+  header a button {
+    border-radius: 5px;
+  }
+
+  h4 {
+    padding: 0.4em 7% 0;
+    font-weight: 400;
+  }
+
+  .div1 {
+    padding: 0 10%;
+  }
+
+  div.email {
+    flex-direction: column;
+    gap: 0.8em;
+    margin-top: 11px;
+  }
+
+  input {
+    height: 50px;
+    min-width: 500px;
+    font-size: 0.85em;
+  }
+
+  input ~ a button {
+    min-height: 43px;
+    min-width: 74px;
+    width: 140px;
+    font-size: 1em;
+  }
+
+  input::placeholder {
+    color: #494747;
+  }
+
+  button > img {
+    width: 20px;
+    height: 11px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .view3,
+  .view5 {
+    flex-direction: column-reverse;
+  }
+
+  .mobile-img {
+  margin-right: 0;
+  width: 40%;
+}
+
+.stranger-container {
+  padding: 0.35em 0.6em 0.5em;
+  width: 50%;
+  min-width: 50%;
+  transform: translate(50%, 50%);
+}
+
+.stranger > img {
+  min-width: 20%;
+  height: 60px;
+}
+
+.stranger-p p:nth-of-type(2) {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.stranger-p p:nth-of-type(1) {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+#view6 {
+  width: 100%;
+}
+
+.view6 span {
+  font-size: 45px;
+  }
+
+.view6 details > p {
+
+}
+
+details {
+  font-size: 20px;
+  width: 80%;
+  text-align: left;
+}
+
+
+footer {
+  width: 90vw;
+}
+
+.list {
+  gap: 5em;
+}
+
+}
